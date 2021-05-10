@@ -1,12 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
   <title>前端充电站</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/bundle-1.css">
+  <style>
+@font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_ners37b82ik.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_ners37b82ik.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_ners37b82ik.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_ners37b82ik.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_ners37b82ik.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_ners37b82ik.svg#AlibabaPuHuiTiL') format('svg'); /* iOS 4.1- */
+}
+  </style>
 </head>
-<body>
-  <div>Hello，这里是前端充电站！冲！</div>
+
+<body data-spy="scroll" data-target="#page-navbar" data-offset="250">
+
+  <header class="navbar navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="logo iconfont">&#xe602;</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#page-navbar" aria-controls="page-navbar" aria-expanded="false">
+                <span class="sr-only">展开导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      </div>
+      <nav id="page-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a class="scroll" href="#introduce" title="沙龙介绍">沙龙介绍</a>
+          </li>
+          <li>
+            <a class="scroll" href="#speaker" title="分享嘉宾">分享嘉宾</a>
+          </li>
+          <li>
+            <a class="scroll" href="#arrangement" title="活动流程">活动流程</a>
+          </li>
+          <li>
+            <a class="scroll" href="#position" title="沙龙地点">沙龙地点</a>
+          </li>
+          <!-- <li>
+            <a class="scroll" href="#history" title="往期回顾">往期回顾</a>
+          </li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container-fluid" style="background-image: url(https://img.alicdn.com/imgextra/i3/O1CN015QNC9e1X38CIoy9RF_!!6000000002867-2-tps-1298-651.png) !important;">
+    <div class="hero-content container">
+      <p style="background-color: rgba(0,0,0,0.4);width: 50%;min-width: 1200px;left: 50%;transform: translate(-50%, 0);height: 50%;position: absolute;"></p>
+      <p class="lead" style="position: relative;">
+        前端充电站 #1
+      </p>
+      <h1 style="position: relative;">
+        武汉热干面专场
+      </h1>
+    </div>
+    <a class="credit-badge" href="https://unsplash.com/@lurenjiasworld?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="A software engineering undergraduate. Love photographing.
+    Trying to be BETTER."><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span>Benjamin Chris
+    </span></a>
+  </section>
+  <section id="introduce" class="container">
+    <p>「前端充电站」是由阿里巴巴淘系前端团队发起的前端技术分享会</p>
+    <p>希望能够在不同的城市和不同的同学通过前端会友、一起分享技术的乐趣。</p>
+    <a class="register" href="http://hdxu.cn/XW4CH" title="点此报名">点此报名</a>
+  </section>
+  <section id="speaker" class="container">
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i1/O1CN01XxT44S1CMGoqDxLGg_!!6000000000066-2-tps-719-556.png" alt="缺月">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          缺月 @淘宝前端智能化团队
+        </p>
+        <p class="title">面向前端解决业务问题的智能化算法平台</p>
+        <p class="desc">前端作为离用户最近的一环，在业务中有大量的数据分析需求，同时，现有的机器学习生态和前端生态割裂，很难直接融入到前端工程当中去，也不能直接在端上使用，目前业界也缺乏前端生产环境的机器学习可持续集成和交付能力，分享话题将会讲述淘宝前端在智能化上的实践和落地，同时如何通过自研框架，将机器学习的能力运用到前端业务当中去。<p>
+        <!--<a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.10.HangZhou.Let%E2%80%99s%20imagine%202021!/%E3%80%901%E3%80%81hyj1991%E3%80%91%E5%9F%BA%E4%BA%8E%20Addon%20%E7%9A%84%20%E4%BC%81%E4%B8%9A%E7%BA%A7%20Node.js%20%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E4%B8%8E%E7%BA%BF%E4%B8%8A%E6%95%85%E9%9A%9C%E5%AE%9A%E4%BD%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.pdf" target="_blank">PPT</a>-->
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          涂志坚 @亚信科技
+        </p>
+        <p class="title">复杂场景下生成小程序海报</p>
+        <p class="desc">在前端开发中，我们一般都会遇到图片生成，然后预览或者保存到本地的需求。在 Web 开发中，我们可以通过 html2canvas 解决类似场景的问题。由于小程序和浏览器的执行环境存在差异，我们并不能直接沿用之前的方案，本次演讲将分享通过前端技术，在小程序中生成复杂海报的解决方案。</p>
+        <!--<a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.10.HangZhou.Let%E2%80%99s%20imagine%202021!/%E3%80%902%E3%80%81%E7%B9%81%E6%98%93%E3%80%91Midway%20Serverless%202.0%20-%20%E6%9B%B4%E5%85%B7%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%9A%84%E5%85%A8%E6%A0%88%E6%A1%86%E6%9E%B6.pptx" target="_blank">PPT</a>-->
+      </div>
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i3/O1CN01Ky0F7x1weYxj0lPpO_!!6000000006333-2-tps-863-767.png" alt="涂志坚">
+      </div>
+    </div>
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i3/O1CN01JW5qBY1g76AcdDjty_!!6000000004094-2-tps-300-294.png" alt="晟怀">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          晟怀 @淘宝前端架构团队
+        </p>
+        <p class="title">基于 Flutter 的高性能 Web 渲染引擎</p>
+        <p class="desc">在跨端渲染这一前端的传统领域，Flutter 凭借它的自绘渲染管线，可以说是风光无两；然而 Flutter 使用的 Dart 语言和 Widget 体系却给传统的前端开发增加了非常高的门槛，生态体系完全割裂造成研发成本的提升。基于这一背景，Kraken 在完全遵守 W3C 标准的基础上，使用 Flutter 的渲染管线，做到了自绘的高性能渲染。本次演讲将分享 Kraken 在一线实践与思考。</p>
+        <!--<a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.10.HangZhou.Let%E2%80%99s%20imagine%202021!/%E3%80%903%E3%80%81%E7%89%A7%E6%9B%88%E3%80%91AirpackCDN%20%E2%80%94%20%E6%96%B0%E4%B8%80%E4%BB%A3%E7%BB%84%E4%BB%B6%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9C%E6%9E%84%E5%BB%BA%E4%B9%8B%E8%B7%AF.pdf" target="_blank">PPT</a>-->
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          沈洪梁 @有赞
+        </p>
+        <p class="title">有赞店铺装修实践</p>
+        <p class="desc">有赞店铺装修，是一款可以由商家运营自主组装页面的工具，通过可视化搭建的方式，帮商家快速创建店铺主页、商品活动页等，分享话题讲述了有赞在店铺装修相关的实践经验，包括设计理念、实践过程和思考总结，以及对未来的规划。</p>
+        <!--<a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.10.HangZhou.Let%E2%80%99s%20imagine%202021!/%E3%80%904%E3%80%81%E5%86%B7%E5%8D%89%E3%80%91node%20party%E3%80%8Aimove%E5%88%86%E4%BA%AB%E3%80%8B.pdf" target="_blank">PPT</a>-->
+      </div>
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i2/O1CN01dxpV711NzAE2t9ahS_!!6000000001640-2-tps-300-307.png" alt="沈洪梁">
+      </div>
+    </div>
+  </section>
+  <section id="arrangement" class="container" style="height: 1000px;">
+    <h1>
+      <i class="iconfont">&#xe600;</i>
+      <p>武汉·2021-05-22（星期日）</p>
+      <p>保利国际中心-35 层 P1-2 会议室</p>
+    </h1>
+    <ul class="schedule">
+      <li>
+        <div class="item">
+          签到
+          <span class="time">13:00 ~ 13:15</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          开场
+          <span class="time">13:15 ~ 13:25</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          缺月：《面向前端解决业务问题的智能化算法平台》
+          <span class="time">13:25</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          涂志坚：《复杂场景下生成小程序海报》
+          <span class="time">14:05</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          晟怀：《基于 Flutter 的高性能 Web 渲染引擎》
+          <span class="time">14:45</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          沈洪梁：《有赞店铺装修实践》
+          <span class="time">15:25</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          前端充电站圆桌讨论
+          <span class="time">16:10</span>
+        </div>
+      </li>
+      <li>
+        <div class="item last">
+          结 束
+          <span class="time">16:50</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="position" class="container-fluid">
+    <div id="mapContainer"></div>
+    <div class="map-info">
+      <h1>
+        <i class="iconfont">&#xe601;</i>位置
+      </h1>
+      <p>
+        武汉·光谷
+        <br />
+        保利国际中心
+      </p>
+    </div>
+  </section>
+  <!--<section id="position-new" class="container" style="text-align: center;">
+    <h2 style="text-align: center;">沙龙地点（直播会场）</h2>
+    <img src="https://img.alicdn.com/imgextra/i4/O1CN01PfdhUK1bFjXaIZL3n_!!6000000003436-2-tps-2772-942.png" style="width: 100%;vertical-align: top;">
+  </section>-->
+  <!-- <section id="history" class="container">
+    <h2>往期回顾</h2>
+    <ul class="history-list">
+      <li><a href="./season-1.html"><span>Node 地下铁沙龙 #1</span><span>《生产环境中的 Node.js》</span></a></li>
+      <li><a href="./season-2.html"><span>Node 地下铁沙龙 #2</span><span>《开往春天的 Node.js》</span></a></li>
+      <li><a href="./season-3.html"><span>Node 地下铁沙龙 #3</span><span>《八面玲珑的 Node.js》</span></a></li>
+      <li><a href="./season-4.html"><span>Node 地下铁沙龙 #4</span><span>《深入实践中的 Node.js》</span></a></li>
+      <li><a href="./season-5.html"><span>Node 地下铁沙龙 #5</span><span>《Ops First》</span></a></li>
+      <li><a href="./season-6.html"><span>Node 地下铁沙龙 #6</span><span>《企业级的 Node.js 实践》</span></a></li>
+      <li><a href="./season-7.html"><span>Node 地下铁沙龙 #7</span><span>《Node.js 新生态》</span></a></li>
+      <li><a href="./season-8.html"><span>Node 地下铁沙龙 #8</span><span>《Let's Go Serverless!》</span></a></li>
+      <li><a href="./season-9.html"><span>Node 地下铁沙龙 #9</span><span>《Let's Go Deep!》</span></a></li>
+      <li><a href="./season-10.html"><span>Node 地下铁沙龙 #10</span><span>《Let's Imagine 2021》</span></a></li>
+    </ul>
+  </section> -->
+  <section id="partners" class="container-fluid">
+    <h2>合作伙伴</h2>
+    <ul class="partners-list">
+      <li>
+        <a target="_blank" href="https://www.youzan.com/" title="有赞" class="partner-logo">有赞</a>
+      </li>
+    </ul>
+  </section>
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.3&key=a7bb5844415139e00fad42739012f32e"></script>
+  <script src="./bundle-1.js"></script>
+  <section class="footer container">
+    <div class="fed-logo iconfont">&#xe603;</div>
+    <div class="copyright">
+      <p class="rights">
+        Copyright © 2021 <a href="https://fed.taobao.org/" title="Taobao FED">Taobao FED</a>. All rights reserved.
+      </p>
+    </div>
+  </section>
+  <div class="qrcode"></div>
 </body>
+
 </html>
